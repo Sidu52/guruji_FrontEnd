@@ -1,0 +1,139 @@
+.p_MainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p_Contaier{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 60px;
+  }
+  
+  .p_Head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    margin-bottom: 70px;
+  }
+  
+  .p_Head span {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.96px;
+    letter-spacing: 0.085em;
+    color: var(--orangisB);
+    text-align: center;
+  }
+  
+  .p_Head img {
+    height: 24px;
+  }
+  
+  @media (max-width: 767px) {
+    .p_Head {
+      gap: 8px;
+      margin-bottom: 30px;
+    }
+    
+    .p_Head img {
+      height: 24px;
+    }
+    
+    .p_Head span {
+      font-size: 20px;
+    }
+  }
+  
+  .ps_Conatiner {
+    display: flex;
+    justify-content: center;
+    gap: 61.13px;
+  }
+  
+  .p_All {
+    display: flex;
+    flex-direction: column;
+    width: 195.56px;
+    gap: 24.34px;
+    margin-top: 30px;
+  }
+  
+  .p_Center {
+    position: relative;
+  }
+  
+  .p_Roter {
+    position: relative;
+    animation: roter 26s ease-in-out 2s infinite normal; 
+  }
+  
+  @keyframes roter {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(90deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(-90deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  .p_Sun{
+    position: absolute;
+    top: 148px;
+    left: 148px;
+  }
+ 
+  @media(max-width: 990px) {
+    .ps_Conatiner {
+      gap: 20px;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .p_All{
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 80%;
+    }
+  
+    .p_All img {
+      width: 120px;
+    }
+  
+    .p_Roter{
+      width: 420px;
+    }
+  
+    .p_Sun{
+      width: 150px;
+      top: 135px !important;
+      left: 135px !important;
+    }
+  }
+  @media (max-width:461px){
+    .p_Roter{
+        width: 250px;
+      }
+    
+      .p_Sun{
+        width: 105\px;
+        top: 70px !important;
+        left: 70px !important;
+      }
+  }
+  
+
+  

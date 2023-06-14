@@ -1,0 +1,91 @@
+.astroContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .astroContainer .astrologers {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    position: relative;
+  }
+  
+  .astroContainer .astologerContainer {
+    background-color: #ffefe3;
+    padding-top: 43px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cardHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+  }
+  
+  .cardHead span {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.96px;
+    letter-spacing: 0.085em;
+    color: var(--orangisB);
+    text-align: center;
+  }
+  
+  @media (max-width: 767px) {
+    .cardHead{
+      gap: 8px;
+    }
+  
+    .cardHead img {
+      height: 24px;
+    }
+  
+    .cardHead span {
+      font-size: 20px;
+    }
+  }
+  
+  .astrologerCard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0 30px;
+    margin-top: 56px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+  }
+  
+  .astrologerCard1,
+  .astrologerCard2,
+  .astrologerCard3 {
+    display: flex;
+    flex-direction: column;
+    gap: 25.14px;
+  }
+  
+  @media (max-width: 1110px) {
+    .astrologerCard {
+      justify-content: space-around;
+    }
+  
+    .astrologerCard2 {
+      margin-top: 0px;
+    }
+  }
+  
+  .astrologerBottom {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: -107px;
+  }
+  
+  .astrologerBottom img {
+    width: 100%;
+    
+  }
+  

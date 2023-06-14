@@ -1,0 +1,158 @@
+.f_Container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 0;
+    background-color: #bd5300;
+    padding-top: 49px;
+    color: white;
+  }
+  
+  .f_description {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    gap: 20px;
+  }
+  
+  .f_SocialIcon {
+    display: flex;
+    align-items: center;
+    gap: 13.76px;
+  }
+  
+  .f_SocialIcon img {
+    width: 66.29px;
+    height: 66.25px;
+  }
+  
+  .f_SocialIcon h2 {
+    font-weight: 400;
+    font-size: 40.0932px;
+    line-height: 40px;
+    color: white;
+  }
+  
+  .f_description p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 138.5%;
+    margin-top: 21.75px;
+    width: 371px;
+    color: white;
+  }
+  
+  .f_Social {
+    display: flex;
+    margin-top: 23.09px;
+    gap: 20px;
+  }
+  
+  .f_Social img {
+    height: 26.55px;
+    width: 26.55px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 2rem;
+  }
+  
+  .footer .footer__description .footer__pay {
+    width: 300px;
+  }
+  
+  .f_Pay p {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 110%;
+    letter-spacing: 0.105em;
+  }
+  
+  .f_Pay img {
+    padding: 10px;
+    background-color: #fefefe;
+    border-radius: 8px;
+    margin-right: 17px;
+    margin-top: 16px;
+  }
+  
+  .f_Center {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 300px;
+    flex-wrap: wrap;
+    height: 500px;
+  }
+  
+  .f_Center div {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+  }
+  
+  .f_Center div h3 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 110%;
+  }
+  
+  .f_Center div div {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+  
+  .f_Contact {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .f_Contact input {
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .f_Contact textarea {
+    padding: 4px;
+    height: 80px;
+    outline: none;
+  }
+  
+  .f_Contact {
+    width: 30%;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .footer_btn{
+    background: #4B9C0C;
+    padding: 13px;
+  }
+
+  @media  (max-width : 858px) {
+    .f_Container{
+        gap: 50px;
+    }
+  }
+  @media  (max-width : 600px) {
+    .f_Container{
+        gap: 0;
+        flex-direction: column;
+    }
+    .f_Center{
+        width: auto;
+        height: auto;
+        gap: 0;
+    }
+  }
+  
+  

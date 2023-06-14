@@ -1,0 +1,171 @@
+/* AstroCard */
+.astrocard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* AstroCard Image */
+    .astrocard__img {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    }
+    
+    .astrocard__img img {
+    max-width: 100%;
+    border-radius: 8px;
+    }
+    
+    /* AstroCard Experience */
+    .a__exp {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    
+    }
+    
+    /* AstroCard Online Indicator */
+    .a__online {
+       
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px 5px 25px;
+    border-radius: 4px;
+    background: #00000047;
+    }
+    
+    .a__online div {
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: 10px;
+        right: 65px;
+        border-radius: 50%;
+        background: #0dff00;
+    }
+    
+    .a__online p {
+        font-size: 1rem;
+    font-weight: bold;
+    }
+    
+    /* AstroCard Info */
+    .a__info {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        position: absolute;
+        bottom: 40px;
+        color: white;
+        left: 15px;
+    }
+    
+    .a__rate {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-bottom: 5px;
+    }
+    
+    .a__rateStar {
+    color: #f5c518;
+    font-size: 2vw;
+    margin-right: 5px;
+    }
+    
+    .a__rate span {
+    font-size: 2vw;
+    font-weight: 500;
+    }
+    
+    .a__info h2 {
+        font-weight: 600;
+        font-size: 1.5vw;
+        line-height: 33px;
+        color: #FFFFFF;
+        text-shadow: 0px 4.94286px 4.94286px rgba(0, 0, 0, 0.3), 0px 4.94286px 4.94286px rgba(0, 0, 0, 0.25);
+        
+    }
+    
+    .a__Shead {
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 1px;
+        color: #FFDBC0;
+        mix-blend-mode: normal;
+    }
+    
+   
+    
+    /* AstroCard Price */
+    .a__price {
+        position: absolute;
+    bottom: 10%;
+    right: 0;
+    transform: translate(-3%, -10%);
+    color: #02ff02;
+    margin-top: 10px;
+    }
+    
+    .a__price p {
+    font-size: 2rem;
+    font-weight: 500;
+    }
+    
+    .a__price h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 5px;
+    }
+    
+    .a__price p:last-child {
+    margin-left: 5px;
+    }
+    
+    /* AstroCard Live Indicator */
+    .astrocard__live {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    background:#A95210;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    }
+    
+    /* AstroCard Contact Options */
+    .astrocard__contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    background: #A95210;
+    }
+    
+    .a__chat,
+    .a__call {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color:#fff;
+    }
+    
+    .a__chat svg,
+    .a__call svg {
+    margin-right: 5px;
+    }
